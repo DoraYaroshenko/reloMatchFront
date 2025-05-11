@@ -1,0 +1,537 @@
+/* global css */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;600&family=Courgette&display=swap');
+
+.Toastify__toast{
+  z-index: 9999999999999;
+  margin-top: 50px;
+}
+
+table{
+  margin-top: 30px;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+.scroll-container {
+  overflow: auto;
+}
+
+.scroll td:first-of-type {
+  position: sticky;
+  left: 0;
+  border-left: none;
+  background: #f4f4f4;
+  color: #212121;
+  font-weight: bold;
+}
+
+header:not(.admin) {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+}
+
+
+header .admin {
+  /* background-color: transparent; */
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  /* width: 100%;
+  height: 100%; */
+  z-index: 999999;
+}
+
+header a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+header .logo img {
+  transition: 500ms;
+}
+
+header .logo img:hover {
+  transform: scale(1.1);
+  /* color: white; */
+}
+
+/* Styling for the burger menu */
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.bm-burger-bars {
+  background: #5C2018;
+  height: 4px;
+  width: 30px;
+  border-radius: 4px;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #c7bdc5;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background-color: #ffffff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #ffffff;
+}
+
+/* Styling for the menu items */
+.menu-item {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.user-icon {
+  border: 1px black solid;
+  border-radius: 25px;
+  font-size: 32px;
+}
+
+
+.btn-publish {
+  border: 1px solid rgb(44, 95, 136);
+  background-color: rgb(114, 189, 250);
+  color: rgb(19, 33, 82);
+  transition: 450ms;
+}
+
+.btn-publish:hover {
+  background-color: rgb(184, 223, 255);
+}
+
+.background-video {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.video-element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -99999;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.job-box {
+  background-color: rgba(0, 0, 0, 0.28);
+  transition: 300ms;
+}
+
+.job-box:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* about us style*/
+.about-us .para-about {
+  font-size: 1.5em;
+}
+
+/* about us style- end*/
+
+
+
+
+/* match style */
+.match-add {
+  background-image: url("../public/design/matchAdd.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 190px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  border: #2f2f2f solid 1px;
+  background-color: rgba(255, 255, 255, 0.28);
+  position: relative;
+}
+
+.match-add .ad-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 300ms;
+}
+
+.match-add .ad-box:hover {
+  background-color: rgba(255, 255, 255, 0.37);
+}
+
+.match-add .ad-box .center-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.match-add .title-F {
+  display: flex;
+  margin-top: 10px;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.match-add p {
+  display: flex;
+  margin-top: 10px;
+  color: #000000;
+  font-size: 22px;
+}
+
+
+/* match style - end*/
+
+.btn-download {
+  font-size: 23px;
+  border: 1px solid rgb(44, 95, 136);
+  background-color: rgb(114, 189, 250);
+  color: rgb(19, 33, 82);
+  transition: 500ms;
+}
+
+.btn-download:hover {
+  transform: scale(1.03);
+  background-color: rgb(149, 203, 247);
+}
+
+/*user info style*/
+
+.user-profile{
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.323);
+}
+
+.user-profile-in{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+/*user info style-end*/
+
+
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* max-height: 20vh; */
+  display: flex;
+  flex-flow: row wrap;
+  padding: 13px 30px 0px 30px;
+  color: #2f2f2f;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer>* {
+  flex: 1 100%;
+}
+
+.footer__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+  font-weight: 400;
+  font-size: 2.8rem;
+}
+
+.footer address {
+  font-style: normal;
+  color: #999;
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: rgb(33, 33, 33, 0.07);
+  border-radius: 100px;
+  color: #2f2f2f;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 720px) {
+  .footer .noa-falik {
+    font-size: 22px;
+  }
+
+  .footer .footer__logo {
+    font-size: 37px;
+  }
+
+  .footer .dora-yaroshenko {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .footer .noa-falik {
+    font-size: 17px;
+  }
+
+  .footer .footer__logo {
+    font-size: 30px;
+  }
+
+  .footer .dora-yaroshenko {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 470px) {
+  .logo-r {
+    width: 50px;
+  }
+
+  .about-us .para-about {
+    font-size: 1.2em;
+  }
+
+  .about-us img {
+    width: 120px;
+  }
+
+  .job-info-img img{
+    width: 300px;
+  }
+
+  .footer .noa-falik {
+    font-size: 15px;
+  }
+
+  .footer .footer__logo {
+    font-size: 22px;
+  }
+
+  .footer .footer__btn {
+    font-size: 15px;
+  }
+
+  .footer .dora-yaroshenko {
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 405px) {
+  .log-out-btn {
+    font-size: 12px;
+  }
+
+  .footer {
+    flex-flow: column;
+    flex-direction: column;
+  }
+
+  .footer .noa-falik {
+    font-size: 15px;
+  }
+
+  .footer .footer__logo {
+    font-size: 22px;
+
+  }
+
+  .footer .dora-yaroshenko {
+    font-size: 15px;
+  }
+
+  .Noa {
+    order: 2;
+  }
+
+  .footer__addr {
+    order: 1;
+    width: 100%;
+    margin: 0;
+  }
+
+  .Dora {
+    order: 2;
+  }
+}
