@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_URL = "https://relomatchserver.onrender.com";
+export const API_URL = "https://relomatchserver-production.up.railway.app";
 // http://localhost:3001
 
 export const TOKEN_KEY = "user";
