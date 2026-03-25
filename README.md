@@ -108,6 +108,17 @@ In `src/services/apiService.jsx` (line 3), update the backend API URL:
 ```javascript
 const API_URL = "http://localhost:5000"; // replace with your backend URL
 ```
+## 🔐 Environment Variables
+
+To run the backend locally, create a `.env` file in the root of the server directory and add the following variables:
+
+```env
+URLDB=your_mongodb_connection_string
+TOKENSECRET=your_jwt_secret
+CLOUDNAME=your_cloudinary_cloud_name
+APIKEY=your_cloudinary_api_key
+APISECRET=your_cloudinary_api_secret
+```
   
 ## 📸 Screenshots
   <img width="1893" height="946" alt="image" src="https://github.com/user-attachments/assets/1daba14e-8bf9-484e-81f8-76959a56f69f" />
@@ -127,7 +138,7 @@ const API_URL = "http://localhost:5000"; // replace with your backend URL
 -  Designed scalable backend architecture and REST APIs
 -  Integrated external data sources for real-time functionality
 -  Leveraged AI tools to accelerate development and improve decision-making
--  
+  
 ## 👩‍💻 Author
 -  Dora Yaroshenko
 -  Noa Falik
