@@ -101,7 +101,7 @@ In `server/app.js` (line 21), update the frontend URL:
 ```javascript
 origin: "http://localhost:3000" // replace with your frontend URL
 ```
-## Frontend
+### Frontend
 
 In `src/services/apiService.jsx` (line 3), update the backend API URL:
 
