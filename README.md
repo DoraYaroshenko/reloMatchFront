@@ -89,8 +89,27 @@ cd reloMatchServer
 npm install
 npm start
 ```
+
+## ⚙️ Configuration
+
+To run the project locally, you need to update the API endpoints for both frontend and backend.
+
+### Backend
+
+In `server/app.js` (line 21), update the frontend URL:
+
+```javascript
+origin: "http://localhost:3000" // replace with your frontend URL
+```
+## Frontend
+
+In `src/services/apiService.jsx` (line 3), update the backend API URL:
+
+```javascript
+const API_URL = "http://localhost:5000"; // replace with your backend URL
+```
   
-📸 Screenshots
+## 📸 Screenshots
   <img width="1893" height="946" alt="image" src="https://github.com/user-attachments/assets/1daba14e-8bf9-484e-81f8-76959a56f69f" />
   <img width="1893" height="951" alt="image" src="https://github.com/user-attachments/assets/6f716279-e4ef-4f3f-a9a2-63553e327a2f" />
   <img width="1886" height="946" alt="image" src="https://github.com/user-attachments/assets/6a8eeb67-410a-4f7a-97c7-e0eb6b0fd75e" />
