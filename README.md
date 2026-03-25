@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+🚀 ReloMatch – Job Search Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ReloMatch is a full-stack web application designed to help users discover, track, and manage job opportunities in a simple and intuitive way. The platform aggregates real-time job data and provides a streamlined workflow for job searching and application tracking.
 
-## Available Scripts
+🔗 Live Demo: https://relomatchfront.onrender.com/
 
-In the project directory, you can run:
+🔗 Backend Repository: https://github.com/DoraYaroshenko/reloMatchServer
 
-### `npm start`
+🔗 Frontend Repository: https://github.com/DoraYaroshenko/reloMatchFront
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✨ Features
+🔍 Search and browse job listings from external sources
+👤 User authentication and personalized experience
+📌 Save and manage job applications
+🔄 Real-time job data aggregation via external APIs
+🎯 Clean and intuitive UI for efficient job tracking
+🧠 AI-Assisted Development
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+AI tools were integrated throughout the development process to improve productivity and code quality.
 
-### `npm test`
+Used ChatGPT to:
+  Generate initial API and component structures
+  Debug frontend-backend integration issues
+  Validate architectural decisions and improve code design
+  Speed up development while maintaining code quality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🏗️ Architecture
 
-### `npm run build`
+The application follows a client-server architecture:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Frontend
+  React (SPA)
+  Component-based architecture
+  Axios for API communication
+Backend
+  Node.js + Express
+  RESTful API design
+  MongoDB for data storage
+External Integrations
+  Job data APIs for real-time listings
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚙️ Tech Stack
+Frontend
+  React
+  JavaScript (ES6+)
+  Axios
+  CSS
+Backend
+  Node.js
+  Express.js
+  MongoDB
+  
+📦 Getting Started
+Prerequisites
+  Node.js installed
+  npm or yarn
+Run Frontend
+  git clone https://github.com/DoraYaroshenko/reloMatchFront
+  cd reloMatchFront
+  npm install
+  npm start
+Run Backend
+  git clone https://github.com/DoraYaroshenko/reloMatchServer
+  cd reloMatchServer
+  npm install
+  npm start
+📸 Screenshots
+  <img width="1893" height="946" alt="image" src="https://github.com/user-attachments/assets/1daba14e-8bf9-484e-81f8-76959a56f69f" />
+  <img width="1893" height="951" alt="image" src="https://github.com/user-attachments/assets/6f716279-e4ef-4f3f-a9a2-63553e327a2f" />
+  <img width="1886" height="946" alt="image" src="https://github.com/user-attachments/assets/6a8eeb67-410a-4f7a-97c7-e0eb6b0fd75e" />
+  <img width="1887" height="943" alt="image" src="https://github.com/user-attachments/assets/830445d1-37c5-4869-ad93-53dfea5b35b9" />
+  <img width="1885" height="869" alt="image" src="https://github.com/user-attachments/assets/97143113-e076-44c5-9518-d6a64f78458c" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🚀 Future Improvements
+  Improve recommendation system for job matching
+  Add advanced filtering and search capabilities
+  Enhance performance and scalability
+  Integrate AI-based job recommendations
+💡 Key Takeaways
+  Built and deployed a full-stack application from concept to production
+  Designed scalable backend architecture and REST APIs
+  Integrated external data sources for real-time functionality
+  Leveraged AI tools to accelerate development and improve decision-making
+👩‍💻 Author
+  Dora Yaroshenko
+  GitHub: https://github.com/DoraYaroshenko
+  LinkedIn: https://linkedin.com/in/dora-yaroshenko-27544226a/
+  Noa Falik
