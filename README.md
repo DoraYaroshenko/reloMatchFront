@@ -97,19 +97,19 @@ npm start
   <img width="1887" height="943" alt="image" src="https://github.com/user-attachments/assets/830445d1-37c5-4869-ad93-53dfea5b35b9" />
   <img width="1885" height="869" alt="image" src="https://github.com/user-attachments/assets/97143113-e076-44c5-9518-d6a64f78458c" />
 
-##🚀 Future Improvements
+## 🚀 Future Improvements
  - Improve recommendation system for job matching
  - Add advanced filtering and search capabilities
  - Enhance performance and scalability
  - Integrate AI-based job recommendations
  - 
-##💡 Key Takeaways
+## 💡 Key Takeaways
 -  Built and deployed a full-stack application from concept to production
 -  Designed scalable backend architecture and REST APIs
 -  Integrated external data sources for real-time functionality
 -  Leveraged AI tools to accelerate development and improve decision-making
 -  
-##👩‍💻 Author
+## 👩‍💻 Author
 -  Dora Yaroshenko
 -  GitHub: https://github.com/DoraYaroshenko
 -  LinkedIn: https://linkedin.com/in/dora-yaroshenko-27544226a/
