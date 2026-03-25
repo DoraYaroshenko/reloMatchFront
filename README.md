@@ -111,6 +111,4 @@ npm start
 -  
 ## 👩‍💻 Author
 -  Dora Yaroshenko
--  GitHub: https://github.com/DoraYaroshenko
--  LinkedIn: https://linkedin.com/in/dora-yaroshenko-27544226a/
 -  Noa Falik
